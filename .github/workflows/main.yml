@@ -62,12 +62,9 @@ jobs:
                      +nodebug  \
                      +noaudit  \
                      +noksm    \
+                     +nozram    \
                      +nomodules  \
-                     +usb_serial  \
-                     +sched_powersave  \
-                     +sched_performance  \
                      +fake_config  \
-                     +dtb  \
                      +morosound                \
                      +boeffla_wl_blocker       \
         2>&1 | tee config.info
