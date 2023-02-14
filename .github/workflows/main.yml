@@ -50,9 +50,9 @@ jobs:
         set -e -o pipefail
         ./cruelbuild config                    \
                      model=${{ matrix.model }} \
-                     name="Micros-V3.10"       \
+                     name="Micros-V3.10"         \
                      toolchain=$TOOLCHAIN      \
-                     +magisk=v25.2             \
+                     +magisk                   \
                      +nohardening              \
                      +ttl                      \
                      +wireguard                \
