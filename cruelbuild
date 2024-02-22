@@ -594,7 +594,7 @@ def update_magisk(version):
     if version:
         cmd.append(version)
     run(cmd, check=True)
-       with open('usr/magisk/backup_magisk', 'wt') as fh:
+    with open('usr/magisk/backup_magisk', 'wt') as fh:
         print(f"""
 KEEPVERITY=true
 KEEPFORCEENCRYPT=true
