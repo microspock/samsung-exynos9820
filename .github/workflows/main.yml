@@ -50,7 +50,7 @@ jobs:
         set -e -o pipefail
         ./cruelbuild config                    \
                      model=${{ matrix.model }} \
-                     name="microspock-V3.10"         \
+                     name="microspock-V3.11"         \
                      toolchain=$TOOLCHAIN      \
                      +magisk                   \
                      +nohardening              \
